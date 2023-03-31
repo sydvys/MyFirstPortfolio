@@ -1,0 +1,23 @@
+.link{
+    padding: 20px;
+}
+
+.link>a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.link>a:hover{
+    text-decoration: underline;
+}
+
+.button:hover{
+    text-decoration: 2px underline;
+}
+
+.pageName>a:hover{
+    text-decoration: 2px underline;
+}
+

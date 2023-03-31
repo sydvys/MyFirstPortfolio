@@ -1,0 +1,28 @@
+
+
+.home {
+    background-color: black;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.topText {
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    z-index: 20;
+    color: #ffffff;
+    text-shadow: 0 0 0 transparent, 0 0 10px #c3447f, 0 0 20px rgba(255, 255, 255, 0.56),  0 0 100px #ffffff,  0 0 300px #ffffff, 0 0 1000px #ffffff;
+}
+
+.bottomText {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    padding: 0 30px;
+    z-index: 20;
+    color: #ffffff;
+    text-shadow: 0 0 0 transparent, 0 0 10px #c3447f, 0 0 20px rgba(255, 255, 255, 0.56),  0 0 100px #ffffff,  0 0 300px #ffffff, 0 0 1000px #ffffff;
+}

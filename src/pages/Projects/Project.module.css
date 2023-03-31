@@ -1,0 +1,9 @@
+.projectContainer{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.project{
+    padding-bottom: 70px;
+}
+

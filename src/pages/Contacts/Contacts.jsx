@@ -15,7 +15,9 @@ const Contacts = () => {
         <Box className={styles.contacts} >
           <Typography variant='h3' sx={{ textAlign: "center", paddingTop: 15, paddingBottom: 5, fontWeight: 400, color: "#fff" }}>Contact Information</Typography>
 
-          <Stack gap={5} sx={{ mx: "auto", py:5, justifyContent: "center", maxWidth: 500, paddingLeft: { xs: 13, sm: 17 }, }}>
+          <Stack gap={5} sx={{ mx: "auto", py:5, justifyContent: "center", maxWidth: 500, 
+          paddingLeft: { xs: 9, sm: 17 }, 
+          }}>
 
             <Stack direction='row' gap={5}>
               <AccessibilitySharpIcon sx={{ fontSize: 45 }} />

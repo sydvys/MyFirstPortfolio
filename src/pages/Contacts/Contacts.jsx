@@ -16,7 +16,7 @@ const Contacts = () => {
           <Typography variant='h3' sx={{ textAlign: "center", paddingTop: 15, paddingBottom: 5, fontWeight: 400, color: "#fff" }}>Contact Information</Typography>
 
           <Stack gap={5} sx={{ mx: "auto", py:5, justifyContent: "center", maxWidth: 500, 
-          paddingLeft: { xs: 9, sm: 17 }, 
+          paddingLeft: { xs: 4, md: 17 }, 
           }}>
 
             <Stack direction='row' gap={5}>
@@ -31,7 +31,7 @@ const Contacts = () => {
               <EmailSharpIcon sx={{ fontSize: 45 }} />
               <Box>
                 <Typography sx={{ fontSize: 20 }}>E-mail</Typography>
-                <Link sx={{ fontSize: 20, fontWeight: 100, color:"#fff", textDecorationColor:"#f34d74" }} href="mailto:aysuseyidova36@gmail.com" variant="body2">aysuseyidova36@gmail.com</Link>
+                <Link sx={{ fontSize: {xs:16,md:20}, fontWeight: 100, color:"#fff", textDecorationColor:"#f34d74" }} href="mailto:aysuseyidova36@gmail.com" variant="body2">aysuseyidova36@gmail.com</Link>
               </Box>
             </Stack>
 

@@ -23,11 +23,11 @@ const Projects = ({ heading, link, pic, picText, bg }) => {
             </Grid>
             
             <Grid item xs={12} md={6} >
-              <ProjectCard bg={"#8b18bf"} pic={"/img/one.png"} heading={"HTML, CSS, Javascript Website"} link={"https://github.com/sydvys/Practise_Site_1"} />
+              <ProjectCard bg={"#8b18bf"} pic={"/img/one.png"} heading={"Practise Website"} link={"https://github.com/sydvys/Practise_Site_1"} />
             </Grid>
 
             <Grid item xs={12} md={6} >
-              <ProjectCard bg={"#d84b2b"} pic={"/img/two.png"} heading={"HTML, CSS, Javascript Website"} link={"https://github.com/sydvys/Practise_Site_2"} />
+              <ProjectCard bg={"#d84b2b"} pic={"/img/two.png"} heading={"Practise Website"} link={"https://github.com/sydvys/Practise_Site_2"} />
             </Grid>
 
             <Grid item xs={12} md={6} >

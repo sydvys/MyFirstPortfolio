@@ -22,7 +22,7 @@ const Home = () => {
             animate={inView ? { y: 0, opacity: 1 } : { y: "-10vw", opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
           >
-            <Typography sx={{ fontSize: { xs: 50, sm: 75 } }}>Hello</Typography>
+            <Typography sx={{ fontSize: { xs: 40, sm: 70 } }}>Hello</Typography>
 
           </motion.h1>
 
@@ -32,7 +32,7 @@ const Home = () => {
             animate={inView ? { y: 0, opacity: 1 } : { y: "10vw", opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
           >
-            <Typography sx={{ fontSize: { xs: 60, md: 63 } }}>I'm a Web-Developer</Typography>
+            <Typography sx={{ fontSize: { xs: 43, sm: 75 } }}>I'm a Front-End Developer</Typography>
 
           </motion.h4>
           

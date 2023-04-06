@@ -13,7 +13,7 @@ import styles from './Header.module.css'
 import AccessibilitySharpIcon from '@mui/icons-material/AccessibilitySharp';
 
 
-const drawerWidth = 300;
+const drawerWidth = 270;
 
 function Header(props) {
   const { window } = props;
